@@ -1,0 +1,85 @@
+.MainChat{
+    display: flex;
+    width: clamp(293px,35%,440px) ;
+    height: 100%;
+    background-color: aliceblue;
+    position: sticky;
+    display: flex;
+    flex-direction:column;
+    justify-content:baseline;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: 59px;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202c33;
+}
+.navbar-profile{
+    width: 100%;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    align-items: center;
+}
+.navbar-profile span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('src/assets/myphoto.jpeg'); 
+    background-size: cover;
+  }
+.navbar-imgs{
+    width: 290px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar img{
+    margin: 10px;
+}
+.input-box{
+    width: 100%;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #111b21;
+    
+}
+.search-bar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #202c33;
+    border-radius: 8px;
+}
+.search-bar input{
+    background-color: #202c33;
+    appearance: none;
+    border: 0px;
+    width:clamp(215px,25vw,320px);
+    height: 22px;
+    color: #D2CFCF;
+    font-size: 20px;
+    
+}
+input:focus{
+    outline: none;
+}
+input::selection{
+    background: none;
+}
+input:checked{
+    initial-value: " ";
+}
