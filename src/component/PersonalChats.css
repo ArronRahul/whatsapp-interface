@@ -1,6 +1,74 @@
 .PersonalChat{
     display: flex;
+    flex-direction: column;
     flex: 1;
     height: 100%;
-    background-color: rgb(127, 255, 136);
+}
+.chat-navbar{
+    height: 59px;
+    display: flex;
+    width: 100%;
+    padding: 10px 16px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202c33;
+}
+
+.navbar-profile img{
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
+    border-radius: 50%;
+    background-size: cover;
+    background-color: #211a11;
+}
+.navbar-name{
+    color: white;
+    width: 100%;
+}
+.navbar-end{
+    display: flex;
+    min-width: 171px;
+    justify-content: space-between;
+}
+.navbar-end img{
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+}
+.navbar-end1 {
+    border: 1px solid #e3e4e4;
+    border-radius: 30px;
+    margin-left: 18px;
+    width: 61px;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.navbar-end1 img{
+    margin: 0px;
+}
+
+
+.chat-body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #111b21;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.chat-botbar{
+    height: 59px;
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202c33;
+    position: relative;
+    bottom: 0%;
 }

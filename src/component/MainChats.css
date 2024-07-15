@@ -8,6 +8,7 @@
     overflow-y: auto; 
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch; 
+    border-right: 0.3px solid #d2cfcf61;
 }
   .MainChat::-webkit-scrollbar {
     display: none; /* Hides the scrollbar */
