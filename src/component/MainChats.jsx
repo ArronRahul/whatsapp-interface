@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './MainChats.css';
 import Personchats from './Personchats';
 
-const MainChats = () => {
+const MainChats = ({ chats }) => {
   const [selected, setSelected] = useState(null); // State to track the selected option
 
   const handleClick = (index) => {
@@ -43,17 +43,9 @@ const MainChats = () => {
         </div>
       </div>
       <div className='person-chats-container'>
-        <Personchats />
-        <Personchats />
-        <Personchats />
-        <Personchats />
-        <Personchats />
-        <Personchats />
-        <Personchats />
-        <Personchats />
-        <Personchats />
-        <Personchats />
-        <Personchats />
+        {chats.map((chat,index)=>(
+          <Personchats key={index} chat={chat}/>
+        ))}
       </div>
     </div>
   );

@@ -6,8 +6,12 @@
     justify-content: flex-start; 
     align-items: center;
     overflow-y: auto; 
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch; 
 }
+  .MainChat::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+  }
 
 .MainChat-sticky {
     width: 100%;
@@ -141,6 +145,7 @@ input::selection {
     overflow-y: auto;
     width: 100%;
     background-color: #202c33;
+    height: 100%;
 }
 
 .person-chats {
