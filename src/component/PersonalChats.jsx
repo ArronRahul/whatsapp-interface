@@ -20,12 +20,15 @@ function PersonalChats() {
         </div>
       </div>
       <div className='chat-body'>
-        
+  
       </div>
       <div className='chat-botbar'>
-        
-
-
+        <div className='chat-botimg'>
+        <img src='src/assets/icons8-smile-26 (1).png'></img>
+        <img src='src/assets/icons8-plus-24.png'></img>
+        </div>
+        <input className='search-bar1' type='text' placeholder='Search' />
+        <img src='src/assets/icons8-mute-unmute-40.png'></img>
       </div>
     </div>
   )

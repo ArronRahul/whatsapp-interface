@@ -64,11 +64,31 @@
     height: 59px;
     display: flex;
     width: 100%;
-    padding: 15px;
-    flex-direction: row;
+    padding: 0px 16px;
     justify-content: space-between;
+    flex-direction: row;
     align-items: center;
     background-color: #202c33;
     position: relative;
     bottom: 0%;
+}
+input {
+    background-color: #2a3940;
+    appearance: none;
+    border: 0;
+    border-radius: 8px;
+    width: clamp(215px, 100%, 900px);
+    height: 41px;
+    margin: 9px;
+    padding: 9px 12px;
+    color: #D2CFCF;
+    font-size: 16px;
+}
+.chat-botimg{
+    display: flex;
+    justify-content: space-between;
+    width: 82px;
+}
+.chat-botimg img{
+    margin: 0px 8px;
 }

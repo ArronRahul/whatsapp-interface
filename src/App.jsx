@@ -37,7 +37,7 @@ function App() {
       } else {
         setChats(JSON.parse(storedChats));
       }
-    }, [chats]);
+    }, []);
 
   return (
     <>
