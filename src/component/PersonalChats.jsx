@@ -28,7 +28,8 @@ function PersonalChats() {
         <img src='src/assets/icons8-plus-24.png'></img>
         </div>
         <input className='search-bar1' type='text' placeholder='Search' />
-        <img src='src/assets/icons8-mute-unmute-40.png'></img>
+        <img id="mic" src='src/assets/icons8-mute-24.png'></img>
+        <img id="send" src='src/assets/icons8-send-24.png'></img>
       </div>
     </div>
   )

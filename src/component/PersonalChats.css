@@ -92,3 +92,15 @@ input {
 .chat-botimg img{
     margin: 0px 8px;
 }
+#send{
+    display: none;
+}
+.search-bar1:focus ~ #mic{
+    display: none;
+}
+.search-bar1:focus ~ #send{
+    display: block;
+}
+
+
+
